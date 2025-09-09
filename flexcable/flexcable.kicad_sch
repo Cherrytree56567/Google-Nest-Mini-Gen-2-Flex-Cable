@@ -5,7 +5,7 @@
 	(uuid "948a442d-3e67-4da5-8921-7992c9d7b79d")
 	(paper "A4")
 	(lib_symbols
-		(symbol "trill-flex:trill-flex-conector"
+		(symbol "trill-flex-conector_1"
 			(pin_names
 				(offset 1.016)
 			)
@@ -28,7 +28,254 @@
 					)
 				)
 			)
-			(property "Footprint" "trill-flex:trill_flex_long"
+			(property "Footprint" "trill-flex:trill_flex_longv2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "trill-flex-conector_1_0_1"
+				(rectangle
+					(start -12.7 -1.27)
+					(end 12.7 -13.97)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "trill-flex-conector_1_1_1"
+				(pin input line
+					(at -15.24 -2.54 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -5.08 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -7.62 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -10.16 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -12.7 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -2.54 180)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -5.08 180)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -7.62 180)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -10.16 180)
+					(length 2.54)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -12.7 180)
+					(length 2.54)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "trill-flex:trill-flex-conector"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C2"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "trill-flex-conector"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "trill-flex:trill_flex_longv2"
 				(at 0 0 0)
 				(effects
 					(font
@@ -169,7 +416,7 @@
 							)
 						)
 					)
-					(number "17"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -187,7 +434,7 @@
 							)
 						)
 					)
-					(number "18"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -205,7 +452,7 @@
 							)
 						)
 					)
-					(number "19"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -223,7 +470,7 @@
 							)
 						)
 					)
-					(number "20"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -241,7 +488,7 @@
 							)
 						)
 					)
-					(number "21"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -606,22 +853,22 @@
 				(hide yes)
 			)
 		)
-		(pin "18"
+		(pin "9"
 			(uuid "04e72164-4547-49cf-9728-0b53db93613d")
 		)
-		(pin "20"
+		(pin "6"
 			(uuid "45ca5843-5aac-42b2-8a07-fcf022785d9b")
 		)
 		(pin "4"
 			(uuid "953f65d0-ccea-4812-bb70-3284c732a690")
 		)
-		(pin "17"
+		(pin "7"
 			(uuid "b7997bed-1e8a-4a66-a624-e60c608e9cf7")
 		)
 		(pin "2"
 			(uuid "bca60b93-4033-4687-b1f2-d68a0e4be88b")
 		)
-		(pin "21"
+		(pin "10"
 			(uuid "00f6ee0c-6829-4a49-8f9d-82faa60cf581")
 		)
 		(pin "5"
@@ -633,7 +880,7 @@
 		(pin "3"
 			(uuid "ce432d3c-6b4a-4b90-8da8-c7136eafc6bb")
 		)
-		(pin "19"
+		(pin "8"
 			(uuid "b43a1fca-9a39-4efd-9b23-68e3db3e66f3")
 		)
 		(instances
@@ -646,6 +893,7 @@
 		)
 	)
 	(symbol
+		(lib_name "trill-flex-conector_1")
 		(lib_id "trill-flex:trill-flex-conector")
 		(at 49.53 36.83 0)
 		(unit 1)
@@ -698,22 +946,22 @@
 				(hide yes)
 			)
 		)
-		(pin "18"
+		(pin "7"
 			(uuid "cda42620-f70e-4d33-acdf-4ce477c43d1f")
 		)
-		(pin "20"
+		(pin "10"
 			(uuid "4e300231-3091-4052-8245-d30e3e5c77c5")
 		)
 		(pin "4"
 			(uuid "ee2f9756-00c4-4027-a712-357bf4ff71cb")
 		)
-		(pin "17"
+		(pin "8"
 			(uuid "432bb099-bbb7-4e7a-9a5c-f4f7ced1b63b")
 		)
 		(pin "2"
 			(uuid "21780ea6-6980-4d5c-b070-345a692ad510")
 		)
-		(pin "21"
+		(pin "6"
 			(uuid "a28ad485-cab9-419f-ae21-23b4b78c88fe")
 		)
 		(pin "5"
@@ -725,7 +973,7 @@
 		(pin "3"
 			(uuid "68711ded-78c2-44bb-9c71-59dbdc44d88d")
 		)
-		(pin "19"
+		(pin "9"
 			(uuid "8fd5b2af-7f92-4150-adc2-73d9cf172e8a")
 		)
 		(instances
