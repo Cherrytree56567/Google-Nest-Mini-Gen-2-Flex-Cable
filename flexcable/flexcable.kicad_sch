@@ -826,7 +826,7 @@
 				)
 			)
 		)
-		(property "Footprint" "trill-flex:trill_flex_longv2"
+		(property "Footprint" "trill-flex:trill_flex_longv3"
 			(at 49.53 59.69 0)
 			(effects
 				(font
@@ -919,7 +919,7 @@
 				)
 			)
 		)
-		(property "Footprint" "trill-flex:trill_flex_longv2"
+		(property "Footprint" "trill-flex:trill_flex_longv3"
 			(at 49.53 36.83 0)
 			(effects
 				(font
