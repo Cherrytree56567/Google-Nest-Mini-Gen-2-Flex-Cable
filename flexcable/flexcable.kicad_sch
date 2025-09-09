@@ -1,0 +1,746 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "948a442d-3e67-4da5-8921-7992c9d7b79d")
+	(paper "A4")
+	(lib_symbols
+		(symbol "trill-flex:trill-flex-conector"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C1"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "trill-flex-conector"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "trill-flex:trill_flex_long"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "trill-flex-conector_0_1"
+				(rectangle
+					(start -12.7 -1.27)
+					(end 12.7 -13.97)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "trill-flex-conector_1_1"
+				(pin input line
+					(at -15.24 -2.54 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -5.08 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -7.62 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -10.16 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -12.7 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -2.54 180)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -5.08 180)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -7.62 180)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -10.16 180)
+					(length 2.54)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -12.7 180)
+					(length 2.54)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 22.86 41.91) (xy 22.86 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "031344e0-9d57-42f0-b18d-95d547abad7e")
+	)
+	(wire
+		(pts
+			(xy 34.29 46.99) (xy 25.4 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d0868e0-7913-4f64-8b37-1e89ed5954c8")
+	)
+	(wire
+		(pts
+			(xy 34.29 49.53) (xy 26.67 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2362c48f-d2ab-4df4-a760-117c6e126291")
+	)
+	(wire
+		(pts
+			(xy 73.66 46.99) (xy 73.66 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25a60530-55c7-4b83-a7ce-12bff4c7d9b0")
+	)
+	(wire
+		(pts
+			(xy 77.47 39.37) (xy 77.47 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "355cc1c2-4959-4c35-b9de-8f4f16344dfb")
+	)
+	(wire
+		(pts
+			(xy 21.59 39.37) (xy 21.59 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36b20c2b-db17-45bb-84e7-a700ccf6e75d")
+	)
+	(wire
+		(pts
+			(xy 21.59 62.23) (xy 34.29 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38e4634a-d0a5-4d90-ad9b-8e7917a9379d")
+	)
+	(wire
+		(pts
+			(xy 64.77 41.91) (xy 76.2 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "400bf4f7-6c83-4bd0-9049-08116bbb9e4f")
+	)
+	(wire
+		(pts
+			(xy 24.13 67.31) (xy 34.29 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "461e4a42-eff5-407b-823f-c395c8bfdb90")
+	)
+	(wire
+		(pts
+			(xy 34.29 39.37) (xy 21.59 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b7dda53-4de5-457e-bd1d-3eeb4469d144")
+	)
+	(wire
+		(pts
+			(xy 76.2 41.91) (xy 76.2 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "592825e5-a404-4825-932d-229e62b7da2d")
+	)
+	(wire
+		(pts
+			(xy 64.77 39.37) (xy 77.47 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cd128aa-92f7-45e9-a5a6-d798daa75321")
+	)
+	(wire
+		(pts
+			(xy 64.77 46.99) (xy 73.66 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "670efbe9-5cbd-4cf1-9840-3fd03c4d7eac")
+	)
+	(wire
+		(pts
+			(xy 26.67 49.53) (xy 26.67 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bcc10a4-d69a-4a88-bd08-6fc595c1d27e")
+	)
+	(wire
+		(pts
+			(xy 25.4 46.99) (xy 25.4 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e63611c-988b-448d-89a7-7874f739354b")
+	)
+	(wire
+		(pts
+			(xy 77.47 62.23) (xy 64.77 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72fecb43-e2e1-401a-a20e-da7c09ed5ebe")
+	)
+	(wire
+		(pts
+			(xy 76.2 64.77) (xy 64.77 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80eabd8c-6d53-47b3-955a-37f97b419033")
+	)
+	(wire
+		(pts
+			(xy 72.39 72.39) (xy 72.39 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "898a8734-9586-46bb-b7e2-54c029d31fa3")
+	)
+	(wire
+		(pts
+			(xy 64.77 72.39) (xy 72.39 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f7f3800-c921-4f61-ad8c-30d178dd77b4")
+	)
+	(wire
+		(pts
+			(xy 34.29 44.45) (xy 24.13 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fcd0430-664b-417c-9a2d-56ae8c8b4759")
+	)
+	(wire
+		(pts
+			(xy 72.39 49.53) (xy 64.77 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9251fa50-97b5-432a-a936-07286161ee5f")
+	)
+	(wire
+		(pts
+			(xy 73.66 69.85) (xy 64.77 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b75a1d75-2c75-498e-a653-1e3187b2e3be")
+	)
+	(wire
+		(pts
+			(xy 64.77 44.45) (xy 74.93 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bab32021-9a64-4403-977c-76d3f35b76c6")
+	)
+	(wire
+		(pts
+			(xy 24.13 44.45) (xy 24.13 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd2a7ea5-f60f-49e2-a5bd-036f6b328082")
+	)
+	(wire
+		(pts
+			(xy 25.4 69.85) (xy 34.29 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccb105e5-bca1-4d9d-a8b8-7d0a96f2393f")
+	)
+	(wire
+		(pts
+			(xy 22.86 64.77) (xy 34.29 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da5121a0-7383-445e-ab48-e6423335fd9e")
+	)
+	(wire
+		(pts
+			(xy 26.67 72.39) (xy 34.29 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db7828b8-65b4-47dd-a69e-22104225196b")
+	)
+	(wire
+		(pts
+			(xy 74.93 44.45) (xy 74.93 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f96e76b4-6842-45c4-8c62-20b6368145db")
+	)
+	(wire
+		(pts
+			(xy 34.29 41.91) (xy 22.86 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc711d74-9737-4440-a52a-3d47e270ba34")
+	)
+	(wire
+		(pts
+			(xy 74.93 67.31) (xy 64.77 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fceb9f6e-6927-46b8-9e81-723c269b66fa")
+	)
+	(symbol
+		(lib_id "trill-flex:trill-flex-conector")
+		(at 49.53 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82af0345-38d4-4c3a-bd89-65f0758b2108")
+		(property "Reference" "C2"
+			(at 49.53 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "trill-flex-conector"
+			(at 49.53 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "trill-flex:trill_flex_longv2"
+			(at 49.53 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "18"
+			(uuid "04e72164-4547-49cf-9728-0b53db93613d")
+		)
+		(pin "20"
+			(uuid "45ca5843-5aac-42b2-8a07-fcf022785d9b")
+		)
+		(pin "4"
+			(uuid "953f65d0-ccea-4812-bb70-3284c732a690")
+		)
+		(pin "17"
+			(uuid "b7997bed-1e8a-4a66-a624-e60c608e9cf7")
+		)
+		(pin "2"
+			(uuid "bca60b93-4033-4687-b1f2-d68a0e4be88b")
+		)
+		(pin "21"
+			(uuid "00f6ee0c-6829-4a49-8f9d-82faa60cf581")
+		)
+		(pin "5"
+			(uuid "597382c4-71d0-4910-97ef-3ce613ae1937")
+		)
+		(pin "1"
+			(uuid "52b71496-a76d-4683-acbb-0685315ec0b8")
+		)
+		(pin "3"
+			(uuid "ce432d3c-6b4a-4b90-8da8-c7136eafc6bb")
+		)
+		(pin "19"
+			(uuid "b43a1fca-9a39-4efd-9b23-68e3db3e66f3")
+		)
+		(instances
+			(project "flexcable"
+				(path "/948a442d-3e67-4da5-8921-7992c9d7b79d"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "trill-flex:trill-flex-conector")
+		(at 49.53 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4df2626-42c0-4d81-90f9-f1414ba86b08")
+		(property "Reference" "C1"
+			(at 49.53 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "trill-flex-conector"
+			(at 49.53 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "trill-flex:trill_flex_longv2"
+			(at 49.53 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "18"
+			(uuid "cda42620-f70e-4d33-acdf-4ce477c43d1f")
+		)
+		(pin "20"
+			(uuid "4e300231-3091-4052-8245-d30e3e5c77c5")
+		)
+		(pin "4"
+			(uuid "ee2f9756-00c4-4027-a712-357bf4ff71cb")
+		)
+		(pin "17"
+			(uuid "432bb099-bbb7-4e7a-9a5c-f4f7ced1b63b")
+		)
+		(pin "2"
+			(uuid "21780ea6-6980-4d5c-b070-345a692ad510")
+		)
+		(pin "21"
+			(uuid "a28ad485-cab9-419f-ae21-23b4b78c88fe")
+		)
+		(pin "5"
+			(uuid "c8ea940a-65b1-4578-8e2d-313c4f890767")
+		)
+		(pin "1"
+			(uuid "9e3ad018-1488-48a9-877d-063d1f5ab31e")
+		)
+		(pin "3"
+			(uuid "68711ded-78c2-44bb-9c71-59dbdc44d88d")
+		)
+		(pin "19"
+			(uuid "8fd5b2af-7f92-4150-adc2-73d9cf172e8a")
+		)
+		(instances
+			(project ""
+				(path "/948a442d-3e67-4da5-8921-7992c9d7b79d"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
