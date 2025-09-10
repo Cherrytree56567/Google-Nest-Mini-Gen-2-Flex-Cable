@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "948a442d-3e67-4da5-8921-7992c9d7b79d")
 	(paper "A4")
+	(title_block
+		(title "Google Nest Mini Gen 2 Flex Cable")
+		(date "2025-09-10")
+		(rev "v1.1")
+	)
 	(lib_symbols
 		(symbol "trill-flex-conector_1"
 			(pin_names
