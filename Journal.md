@@ -22,4 +22,4 @@ I was able to use vias to make a Type B Flex PCB so that the pins are on either 
 
 ![](https://github.com/Cherrytree56567/Google-Nest-Mini-Gen-2-Flex-Cable/raw/main/Demo/2.png?raw=true)
 
-**Total time spent: 1h 22m**
+**Total time spent: 38m**
