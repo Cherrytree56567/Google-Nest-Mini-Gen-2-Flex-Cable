@@ -5,3 +5,6 @@ Measurements
  - 0.6mm padding
  - 0.25mm pins
  - 0.35mm pins padding
+ - 2 mm Thickness
+ - 2 mm Stiffner
+ - Type B FPC
